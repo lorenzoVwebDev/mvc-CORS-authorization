@@ -1,12 +1,14 @@
-const whiteList = ['https://www.yoursite.com'];
+const whiteList = ['https://www.yoursite.com', 'http://localhost:3000'];
 const { corsLogger } = require('../middleware/logEvents.js')
 
 const corsOptions = {
   origin: (origin, callback) => {
     if (whiteList.indexOf(origin) !== -1 || !origin) {
+      console.log(origin)
       corsLogger(`${origin} allowed by CORS`)
       callback(null, true)
     } else {
+      console.log(origin)
       corsLogger(`${origin} NOT allowed by CORS`)
       callback(new Error('Not allowed by CORS'));
     }
