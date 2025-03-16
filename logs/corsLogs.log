@@ -1,0 +1,10 @@
+20250316	12:24:06	cors	a01c64be-5ec7-4c44-a291-c292774693d3		undefined allowed by CORS
+20250316	12:24:06	cors	83d80da5-3995-4c75-999b-886ddf0d79e0		undefined allowed by CORS
+20250316	12:24:06	cors	244dfb90-9a10-4a41-95d3-22cd36355b09		undefined allowed by CORS
+20250316	12:24:06	cors	604873d1-9901-4f85-8001-5fcf2ed7e9da		http://localhost:3000 NOT allowed by CORS
+20250316	12:24:06	cors	8b571d5f-d79a-487b-ba16-ece7a816a27b		http://localhost:3000 NOT allowed by CORS
+20250316	12:24:09	cors	70cbe684-0d9f-4814-8bc9-e22d335be2cf		undefined allowed by CORS
+20250316	12:24:09	cors	9670b977-613b-4f73-98f1-ba749fd7f576		undefined allowed by CORS
+20250316	12:24:09	cors	d343bb61-2eb9-4a5d-846f-08ee432a2f43		http://localhost:3000 NOT allowed by CORS
+20250316	12:24:09	cors	f9184a51-a876-4527-8551-5e94beaf84f3		undefined allowed by CORS
+20250316	12:24:09	cors	9b4e2cf9-395e-4a84-91c4-879bee519f2a		http://localhost:3000 NOT allowed by CORS

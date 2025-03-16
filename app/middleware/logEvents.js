@@ -28,5 +28,9 @@ const errorLogger = async (message) => {
   await logEvents(`\t${message}`, 'error');
 }
 
+const corsLogger = async (message) => {
+  await logEvents(`\t${message}`, 'cors');
+}
 
-module.exports = {logEvents, requestLogger, errorLogger}
+
+module.exports = {logEvents, requestLogger, errorLogger, corsLogger}

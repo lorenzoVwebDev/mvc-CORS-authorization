@@ -1,21 +1,26 @@
+//node third parties modules and common core modules
 const express = require('express');
 const { v4: uuid } = require('uuid');
 const path = require('path');
 const fs = require('fs');
 const fsPromises = require('fs').promises;
 const app = express();
-const os = require('os');
-const { errorMonitor } = require('events');
-const {logEvents, requestLogger} = require('./middleware/logEvents.js');
+const cors = require('cors')
+const corsOptions = require('./configuration/corsOptions.js');
+//--------------- middlewares imports ------------------
+const {requestLogger} = require('./middleware/logEvents.js');
+//------------------------------------------------------
 const PORT = process.env.PORT || 3000;
-
+//----------------middlewares---------------------------
 app.use(requestLogger);
+
+app.use(cors(corsOptions));
 
 app.use(express.static(path.join(__dirname, '../','public')));
 
+//----------------routing-------------------------------
 app.use('/testerror', require('./routes/testerror.route.js'))
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
- 

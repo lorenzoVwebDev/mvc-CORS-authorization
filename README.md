@@ -1,10 +1,14 @@
-# "node-logs-creator”
-  A node logs creator
+# "mvc-CORS-authorization”
+  A node web server based on MVC that serves log files and set the allowed origins/headers for CORS
 ## Features
 - mvc structure
 - Routing 
 - logs middleware to handle both access logs and error logs
 - express method .static() to serve static files from the public folder 
+- cors configuration to handle preflight requests and permissions for origins
+
+## installation
+
 ✅ [Check out my WebSite to watch many other portfolio projects](https://lorenzo-viganego.com/)
 
 ## Features
