@@ -1,5 +1,5 @@
 # "mvc-CORS-authorization”
-  A node web server based on MVC that serves log files and set the allowed origins/headers for CORS
+  A node web server based on MVC that serves log files and set the allowed origins/headers for CORS.
 ## Features
 - mvc structure
 - Routing 
